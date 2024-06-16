@@ -53,7 +53,8 @@
   <p>POP QUIZ: what is the value at x=20?</p>
   <pre>
     f(20) = 20 * .25 + 5
-    f(20) = ?
+    f(20) = 5 + 5
+    f(20) = 10
   </pre>
 
   <p>I hope you can see the power of functions here!</p>
@@ -92,6 +93,8 @@
     For x = 20...
     f(x) =
     <script>
+      y3 = f(20);
+      document.write(y3);
     </script>
   </p>
   <h3>Example 2</h3>
@@ -139,7 +142,7 @@
     </script>
   </p>
   <p>
-    For x = 5...
+    For x = 10...
     g(x) =
     <script>
       z2 = g(10);
@@ -151,24 +154,26 @@
     For x = 15...
     g(x) =
     <script>
-      z3 = g();
-      document.write();
+      z3 = g(15);
+      document.write(z3);
     </script>
   </p>
   <h4> TODO: You try this one! </h4>
   <p>
     For x = 21...
-    g(x) = ?
+    g(x) = 
     <script>
-
+      z4 = g(21);
+      document.write(z4);
     </script>
   </p>
   <h4> TODO: You try this one! </h4>
   <p>
     For x = 1001...
-    g(x) = ?
+    g(x) =
     <script>
-
+      z5 = g(1001);
+      document.write(z5);
     </script>
   </p>
 
@@ -177,9 +182,76 @@
     Write a function that will calculate the cash that the shop has earned after x days. Then caclulate that for 5, 10,
     15, 21 and 1001 days.</p>
 
+    <script>
+      let z6;
+      let z7;
+      let z8;
+      let z9;
+      let z10;
+      let z11;
+
+      function h(x) {
+        return x * 2 + 1.5;
+      }
+    </script>
+
   <h4>TODO: You try this one!</h4>
-  <p> In the space bellow, write the html tags and javascript code to make your functions. Write the code to write the
+  <p> In the space below, write the html tags and javascript code to make your functions. Write the code to write the
     results of the functions to the page. </p>
+
+    <p>
+      For x = 2...
+      h(x) =
+        <script>
+          z6 = h(2);
+          document.write(z6);
+        </script>
+    </p>
+
+    <p>
+      For x = 5...
+      h(x) = 
+        <script>
+          z7 = h(5);
+          document.write(z7);
+        </script>
+    </p>
+
+    <p>
+      For x = 10...
+      h(x) =
+        <script>
+          z8 = h(10);
+          document.write(z8);
+        </script>
+    </p>
+
+    <p>
+      For x = 15...
+      h(x) = 
+        <script>
+          z9 = h(15);
+          document.write(z9);
+        </script>
+    </p>
+
+    <p>
+      For x = 21...
+      h(x) = 
+        <script>
+          z10 = h(21);
+          document.write(z10);
+        </script>
+    </p>
+
+    <p>
+      For x = 1001...
+      h(x) =
+        <script>
+          z11 = h(1001);
+          document.write(z11);
+        </script>
+    </p>
 
 
 
